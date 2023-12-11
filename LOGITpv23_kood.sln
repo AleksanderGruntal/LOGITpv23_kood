@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LOGITpv23_kood", "LOGITpv23_kood.pyproj", "{618EE8A6-7F79-4507-B219-0B366B4AF322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{618EE8A6-7F79-4507-B219-0B366B4AF322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618EE8A6-7F79-4507-B219-0B366B4AF322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCA8480C-74A4-4F25-8975-D28E7428B7DC}
+	EndGlobalSection
+EndGlobal
