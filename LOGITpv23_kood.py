@@ -1,5 +1,42 @@
 from random import *
 from math import *
+#8
+print("@..@".center(10," "))
+print("(----)".center(10," "))
+print("( \__/ )".center(10," "))
+print("^^ "" ^^".center(10," "))
+
+#7
+try:
+    min_=int(input("Min: "))
+except :
+    print("On vaja täisarv kasutada!")
+try:
+    max_=int(input("Max: "))
+except :
+    print("Vaja max_ muutujaga!")
+
+a1=randint(min_,max_)
+a2=randint(min_,max_)
+a3=randint(min_,max_)
+a4=randint(min_,max_)
+a5=randint(min_,max_)
+keskmine=(a1+a2+a3+a4+a5)/5
+print("Arvud: {0},{1},{2},{3},{4}. Aritmetiline keskmine on: {5}".format(a1+a2+a3+a4+a5,keskmine))
+
+
+#6
+try:
+    aeg = float(input("Mitu tundi kulus sõiduks? "))
+    try:
+       teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+       kiirus = teepikkus/aeg
+       print("Sinu kiirus oli " + str(kiirus) + " km/h")
+    except :
+       print("Viga andmetaga!")
+except :
+    print("On vaja ainult numberit sisestada!")
+
 #5
 a=float(input("pikkus: "))
 b=float(input("laius: "))
