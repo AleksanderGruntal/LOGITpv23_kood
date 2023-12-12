@@ -1,5 +1,22 @@
 from random import *
 from math import *
+#9
+try:
+    a=int(input("A: "))
+except :
+    print("Probleem A!")
+try:
+    b=int(input("B: "))
+except :
+    print("Probleem B!")
+try:
+    c=int(input("C: "))
+except :
+    print("Probleem C!")
+
+P=a+b+c
+print("Perimetr/Ümbermõõt: ",P)
+
 #8
 print("@..@".center(10," "))
 print("(----)".center(10," "))
