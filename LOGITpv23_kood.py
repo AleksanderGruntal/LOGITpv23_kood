@@ -1,5 +1,14 @@
 from random import *
 from math import *
+#10
+try:
+    P=int(input("Sõbrade arv: "))
+except :
+    print("Kogus on täisarv")
+hind=12.98
+hind*=hind*1.1 #hind+10%
+print("Igaüks maksab ",hind/P)
+
 #9
 try:
     a=int(input("A: "))
